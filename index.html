@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Loopstudios landing page</title>
+</head>
+<body>
+  <div class="bg-head container">
+    <header>
+      <img src="images/logo.svg" alt="logo" class="logo">
+      <img src="images/icon-hamburger.svg" alt="hamburger" class="open-nav" onclick="openNav();">
+    </header>
+    <div class="bg-head__navbar container" id="navbar">
+      <img src="images/logo.svg" alt="logo" class="logo">
+      <img src="images/icon-close.svg" alt="close" class="close-nav" onclick="closeNav();">
+      <div class="clearfix"></div>
+      <nav>
+        <ul class="bg-head__navbar--list">
+          <li>About</li>
+          <li>Careers</li>
+          <li>Events</li>
+          <li>Products</li>
+          <li>Support</li>
+        </ul>
+      </nav>
+    </div>
+    <h2 class="bg-head__header">Immersive experiences that deliver</h2>
+  </div>
+  <div class="leader-interactive container">
+    <img src="images/mobile/image-interactive.jpg" alt="interactive" class="img-interactive">
+    <div class="interactive-lg">
+      <p class="head-interactive">The leader in interactive VR</p>
+    <p class="text-interactive">Founded in 2011, Loopstudios has been producing world-class virtual reality 
+      projects for some of the best companies around the globe. Our award-winning 
+      creations have transformed businesses through digital experiences that bind 
+      to their brand.</p>
+    </div>
+  </div>
+  <div class="creations container">
+    <p class="head-creations">Our creations</p>
+    <div class="imgs-collection">
+      <div class="bg-img">
+        <p>Deep earth</p>
+      </div>
+      <div class="bg-img">
+        <p>Night arcade</p>
+      </div>
+      <div class="bg-img">
+        <p>Soccer team VR</p>
+      </div>
+      <div class="bg-img">
+        <p>The grid</p>
+      </div>
+      <div class="bg-img">
+        <p>From up above VR</p>
+      </div>
+      <div class="bg-img">
+        <p>Pocket borealis</p>
+      </div>
+      <div class="bg-img">
+        <p>The curiosity</p>
+      </div>
+      <div class="bg-img">
+        <p>Make it fisheye</p>
+      </div>
+    </div>
+    <button class="btn">See all</button>
+  </div>
+  <footer class="container">
+    <div class="float-left-lg">
+      <img src="images/logo.svg" alt="logo">
+      <nav class="footer-nav">
+        <ul class="footer-nav__list">
+          <li class="footer-nav__list--item">About</li>
+          <li class="footer-nav__list--item">Careers</li>
+          <li class="footer-nav__list--item">Events</li>
+          <li class="footer-nav__list--item">Products</li>
+          <li class="footer-nav__list--item">Support</li>
+        </ul>
+      </nav>  
+    </div>
+    <div class="float-right-lg">
+      <ul class="social">
+        <li class="social-item"><i class="fab fa-facebook-square"></i></li>
+        <li class="social-item"><i class="fab fa-twitter"></i></li>
+        <li class="social-item"><i class="fab fa-pinterest"></i></li>
+        <li class="social-item"><i class="fab fa-instagram"></i></li>
+      </ul>
+      <p class="copyright">© 2021 Loopstudios. All rights reserved.</p>  
+    </div>
+  </footer>
+  <script>
+  let navbar = document.getElementById("navbar"),
+      openNav = () => navbar.style.display = "block",
+      closeNav = () => navbar.style.display = "none";
+</script>
+</body>
+</html>
