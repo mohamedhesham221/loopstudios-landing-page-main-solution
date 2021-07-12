@@ -1,7 +1,5 @@
 # Frontend Mentor - Loopstudios landing page solution
 
-## Overview
-
 ### The challenge
 
 Users should be able to:

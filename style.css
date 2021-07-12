@@ -423,7 +423,7 @@ footer {
 }
 @media (min-width: 1024px) and (max-width: 1440px) {
     .bg-head {
-        height: 630px;
+        height: 630px !important;
     }
     .bg-head__header {
         width: 590px;
